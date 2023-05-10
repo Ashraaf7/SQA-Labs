@@ -4,39 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e371e15f-fdf2-4f5e-9585-0ba5697558ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/test/java/Lab5Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/test/java/Lab5Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/GenerativeTestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/TestSuite1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/TestSuite2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/test/java/Lab7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/test/java/test.java" afterDir="false" />
+    <list default="true" id="0abb216c-5e08-4131-bcac-7a3b5173dbba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/homePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PagesFactory/loginPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginPageTestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,7 +41,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2PbQoBkDJ7bwrb5yhcT9nhgLT7j" />
+  <component name="ProjectId" id="2PbT6Vuj03XPVggy2fD0g5GZBU5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,20 +50,52 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="PagesFactory" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="loginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lab6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="loginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.loginPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e371e15f-fdf2-4f5e-9585-0ba5697558ed" name="Changes" comment="" />
-      <created>1683723480741</created>
+      <changelist id="0abb216c-5e08-4131-bcac-7a3b5173dbba" name="Changes" comment="" />
+      <created>1683724608283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683723480741</updated>
-      <workItem from="1683723482107" duration="13000" />
+      <updated>1683724608283</updated>
+      <workItem from="1683724609657" duration="2995000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
