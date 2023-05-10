@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+    <test name="RegressionOnEdge">
+        <parameter name="browser" value="Edge"></parameter>
+        <classes>
+            <class name="Lab7">
+            </class>
+        </classes>
+    </test>
+
+    <test name="RegressionOnIE">
+        <parameter name="browser" value="IE"></parameter>
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Lab7">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

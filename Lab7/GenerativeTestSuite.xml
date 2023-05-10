@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Generative">
+    <suite-files>
+        <suite-file path="TestSuite2.xml"></suite-file>
+        <suite-file path="TestSuite1.xml"></suite-file>
+    </suite-files>
+</suite>
