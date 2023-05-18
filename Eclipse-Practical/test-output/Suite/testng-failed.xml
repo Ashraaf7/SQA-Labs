@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="invalidusername" value="tom"/>
+  <parameter name="validpassword" value="SuperSecretPassword!"/>
+  <parameter name="validusername" value="tomsmith"/>
+  <parameter name="invalidpassword" value="SuperSecretPassword"/>
+  <test thread-count="5" parallel="tests" name="Regression on Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="asu.practical.LoginPageTest">
+        <methods>
+          <include name="validLogin"/>
+          <include name="inValidLogin"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- asu.practical.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression on Edge(failed) -->
+  <test thread-count="5" parallel="tests" name="Regression on IE(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="asu.practical.LoginPageTest">
+        <methods>
+          <include name="validLogin"/>
+          <include name="inValidLogin"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- asu.practical.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression on IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
